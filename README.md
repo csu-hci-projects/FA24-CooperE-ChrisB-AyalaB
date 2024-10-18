@@ -22,14 +22,14 @@
     - [ ] The health variable is an integer that is reduced when shot (the exact amount of health lost is up to you). After a target’s health reaches 0 or less the target should be destroyed.
     - [ ] Once all targets in a level are destroyed the next level should automatically be loaded (see 2b and 2c for details).
   - [ ] Hazards need to damage the player.
-    - [ ] The player needs to have a health variable as well. The starting health should be 100.
+    - [x] The player needs to have a health variable as well. The starting health should be 100.
     - [ ] When a player collides with a hazard (i.e. lava pit, spike trap, etc.) they will lose health (the exact amount they lose is up to you).
     - [ ] Once a player’s health reaches 0 or less the level should automatically restart (hint load the level currently being played!).
-- [ ] Ammo
-  - [ ] The player should have limited ammo.
-    - [ ] Whenever the player fires if they have ammo the ammo integer is reduced by 1.
-    - [ ] If the player is currently at 0 or less ammo the gun does not fire.
-      - [ ] The ammo count should be displayed at all times as: “AMMO: ##”
+- [x] Ammo **(Erik)**
+  - [x] The player should have limited ammo. **(Erik)**
+    - [x] Whenever the player fires if they have ammo the ammo integer is reduced by 1. **(Erik)**
+    - [x] If the player is currently at 0 or less ammo the gun does not fire. **(Erik)**
+      - [x] The ammo count should be displayed at all times as: “AMMO: ##” **(Erik)**
 - [ ] Pickups
   - [ ] Ammo pickups
     - [ ] If the player runs over an ammo pickup their ammo count increases and the pickup is destroyed.
