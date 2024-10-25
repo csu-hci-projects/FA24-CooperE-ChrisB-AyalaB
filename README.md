@@ -44,4 +44,8 @@
 - 2D: Photoshop 2023
 
 ## LLM Chat Logs
-- 
+- https://chatgpt.com/share/671bf6d7-e1f4-800f-8e31-11bad791e7e7
+
+## Team Meetings
+- We met during class lab hours on fridays (October 18th and 25th)
+- During these meetings we worked on the project and discussed how to properly split the workload among eachb teammates
