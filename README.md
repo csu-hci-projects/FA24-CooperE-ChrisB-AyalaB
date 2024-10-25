@@ -16,12 +16,12 @@
   - [ ] One level must be a “menu” scene with a start button that loads the first level and a quit button that exits the game.
   - [ ] The level that is loaded from the menu must have hazards and targets (required functionality for these described below). Once all targets have been destroyed the third level must automatically load.
   - [ ] The third (last) level must also have hazards and targets, but a different layout. Once all targets have been destroyed the menu scene must automatically load.
-  - [ ] Both of the non-menu levels must have static meshes with materials applied for the user to navigate.
-- [ ] Each non-menu level must have at least 3 targets and at least 3 hazards
+  - [x] Both of the non-menu levels must have static meshes with materials applied for the user to navigate. **(Chris)**
+- [x] Each non-menu level must have at least 3 targets and at least 3 hazards **(chris)**
   - [x] Targets can be any mesh, but must have a “health” variable. Their starting health should be 100. **(Chris)**
     - [x] The health variable is an integer that is reduced when shot (the exact amount of health lost is up to you). After a target’s health reaches 0 or less the target should be destroyed. **(Chris)**
     - [ ] Once all targets in a level are destroyed the next level should automatically be loaded (see 2b and 2c for details).
-  - [ ] Hazards need to damage the player.
+  - [x] Hazards need to damage the player.**(Chris)**
     - [x] The player needs to have a health variable as well. The starting health should be 100.
     - [x] When a player collides with a hazard (i.e. lava pit, spike trap, etc.) they will lose health (the exact amount they lose is up to you). **(Chris)**
     - [ ] Once a player’s health reaches 0 or less the level should automatically restart (hint load the level currently being played!).
