@@ -12,19 +12,19 @@
 ## Project Checklist
 - [x] Create a new project **(Erik)**
   - [x] Use the FPS template and load the starter assets. **(Erik)**
-- [ ] Create 3 unique levels
-  - [ ] One level must be a “menu” scene with a start button that loads the first level and a quit button that exits the game.
-  - [ ] The level that is loaded from the menu must have hazards and targets (required functionality for these described below). Once all targets have been destroyed the third level must automatically load.
-  - [ ] The third (last) level must also have hazards and targets, but a different layout. Once all targets have been destroyed the menu scene must automatically load.
+- [x] Create 3 unique levels
+  - [x] One level must be a “menu” scene with a start button that loads the first level and a quit button that exits the game. **(Ben)**
+  - [x] The level that is loaded from the menu must have hazards and targets (required functionality for these described below). Once all targets have been destroyed the third level must automatically load. **(Ben/Chris)**
+  - [x] The third (last) level must also have hazards and targets, but a different layout. Once all targets have been destroyed the menu scene must automatically load. **(Ben/Chris)**
   - [x] Both of the non-menu levels must have static meshes with materials applied for the user to navigate. **(Chris)**
 - [x] Each non-menu level must have at least 3 targets and at least 3 hazards **(chris)**
   - [x] Targets can be any mesh, but must have a “health” variable. Their starting health should be 100. **(Chris)**
     - [x] The health variable is an integer that is reduced when shot (the exact amount of health lost is up to you). After a target’s health reaches 0 or less the target should be destroyed. **(Chris)**
-    - [ ] Once all targets in a level are destroyed the next level should automatically be loaded (see 2b and 2c for details).
+    - [x] Once all targets in a level are destroyed the next level should automatically be loaded (see 2b and 2c for details). **(Ben)**
   - [x] Hazards need to damage the player.**(Chris)**
     - [x] The player needs to have a health variable as well. The starting health should be 100.
     - [x] When a player collides with a hazard (i.e. lava pit, spike trap, etc.) they will lose health (the exact amount they lose is up to you). **(Chris)**
-    - [ ] Once a player’s health reaches 0 or less the level should automatically restart (hint load the level currently being played!).
+    - [x] Once a player’s health reaches 0 or less the level should automatically restart (hint load the level currently being played!). **(Erik)**
 - [x] Ammo **(Erik)**
   - [x] The player should have limited ammo. **(Erik)**
     - [x] Whenever the player fires if they have ammo the ammo integer is reduced by 1. **(Erik)**
