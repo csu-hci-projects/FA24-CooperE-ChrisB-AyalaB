@@ -17,7 +17,7 @@
   - [x] The level that is loaded from the menu must have hazards and targets (required functionality for these described below). Once all targets have been destroyed the third level must automatically load. **(Ben/Chris)**
   - [x] The third (last) level must also have hazards and targets, but a different layout. Once all targets have been destroyed the menu scene must automatically load. **(Ben/Chris)**
   - [x] Both of the non-menu levels must have static meshes with materials applied for the user to navigate. **(Chris)**
-- [x] Each non-menu level must have at least 3 targets and at least 3 hazards **(chris)**
+- [x] Each non-menu level must have at least 3 targets and at least 3 hazards **(Chris)**
   - [x] Targets can be any mesh, but must have a “health” variable. Their starting health should be 100. **(Chris)**
     - [x] The health variable is an integer that is reduced when shot (the exact amount of health lost is up to you). After a target’s health reaches 0 or less the target should be destroyed. **(Chris)**
     - [x] Once all targets in a level are destroyed the next level should automatically be loaded (see 2b and 2c for details). **(Ben)**
@@ -30,13 +30,13 @@
     - [x] Whenever the player fires if they have ammo the ammo integer is reduced by 1. **(Erik)**
     - [x] If the player is currently at 0 or less ammo the gun does not fire. **(Erik)**
       - [x] The ammo count should be displayed at all times as: “AMMO: ##” **(Erik)**
-- [ ] Pickups
-  - [ ] Ammo pickups
-    - [ ] If the player runs over an ammo pickup their ammo count increases and the pickup is destroyed.
-    - [ ] This pickup should have a unique mesh visual to identify the pickup.
-  - [ ] Health pickups
-    - [ ] If the player runs over a health pickup their health increases. However, the player’s health cannot exceed 100. The pick up should then be destroyed.
-    - [ ] This pickup should have a unique mesh visual to identify the pickup.
+- [x] Pickups
+  - [x] Ammo pickups **(Erik)**
+    - [x] If the player runs over an ammo pickup their ammo count increases and the pickup is destroyed. **(Erik)**
+    - [x] This pickup should have a unique mesh visual to identify the pickup. **(Erik)**
+  - [x] Health pickups **(Erik)**
+    - [x] If the player runs over a health pickup their health increases. However, the player’s health cannot exceed 100. The pick up should then be destroyed. **(Erik)**
+    - [x] This pickup should have a unique mesh visual to identify the pickup. **(Erik)**
 
 ## Project Details
 - Engine: Unreal Engine 5.3.2
@@ -48,4 +48,4 @@
 
 ## Team Meetings
 - We met during class lab hours on fridays (October 18th and 25th)
-- During these meetings we worked on the project and discussed how to properly split the workload among eachb teammates
+- During these meetings we worked on the project and discussed how to properly split the workload among each teammate
