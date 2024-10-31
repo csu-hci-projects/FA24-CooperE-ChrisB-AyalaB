@@ -1,8 +1,8 @@
 # CS-310H Mixed Reality Assignment 1
 
-[Showcase Video](https://www.youtube.com/)
+[Showcase Video](https://youtu.be/KTaD2y1hmCs)
 
-[Blueprint Review Video](https://www.youtube.com/)
+[Blueprint Review Video](https://youtu.be/Fv4m-zHlOKI)
 
 ## Group Members
 - Erik Cooper
